@@ -1,0 +1,9 @@
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\bin\Debug\netstandard2.0\Sample.Shared.deps.json
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\bin\Debug\netstandard2.0\Sample.Shared.dll
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\bin\Debug\netstandard2.0\Sample.Shared.pdb
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\obj\Debug\netstandard2.0\Sample.Shared.csprojAssemblyReference.cache
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\obj\Debug\netstandard2.0\Sample.Shared.AssemblyInfoInputs.cache
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\obj\Debug\netstandard2.0\Sample.Shared.AssemblyInfo.cs
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\obj\Debug\netstandard2.0\Sample.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\obj\Debug\netstandard2.0\Sample.Shared.dll
+C:\Users\kanda\Downloads\f\unity\Zemi\Sample.Shared\obj\Debug\netstandard2.0\Sample.Shared.pdb
