@@ -88,6 +88,7 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
             //入室していなければ入室する
             if (t == 0)
             {
+                Debug.Log("チャットに参加します。");
                 this.SampleHubTest();
                 //myNum = await this.sampleHub.JoinAsync(player);
                 myNameText.text = myName;
@@ -151,6 +152,7 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
     /// </summary>
     async void SampleHubTest()
     {
+        Debug.Log("参加します。");
         // 自分のプレイヤー情報を作ってみる
         var player = new Player
         {
@@ -171,6 +173,7 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
         // 位置情報を更新してみる
         player.Position = new Vector3(1, 0, 0);
         await this.sampleHub.MovePositionAsync(player.Position);
+        Debug.Log("参加しました。");
     }
 
     //切断する
