@@ -10,6 +10,12 @@ using System.Collections;
 
 public class SampleController : MonoBehaviour, ISampleHubReceiver
 {
+    //通信系
+    [SerializeField]
+    private string applicationHost = "18.181.92.51";
+    [SerializeField]
+    private int applicationPort = 12345;
+
     [SerializeField]
     public GameObject StartPanel;
     [SerializeField]
@@ -54,7 +60,7 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
         //InputFieldの準備
         NameInputField = GameObject.Find("InputField").GetComponent<InputField>();
 
-        this.channel = new Channel("18.181.92.51:12345", ChannelCredentials.Insecure);
+        this.channel = new Channel(applicationHost, applicationPort, ChannelCredentials.Insecure);
         this.sampleService = MagicOnionClient.Create<ISampleService>(channel);
         this.sampleHub = StreamingHubClient.Connect<ISampleHub, ISampleHubReceiver>(this.channel, this);
 
