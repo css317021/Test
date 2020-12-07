@@ -47,23 +47,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11196}
+      Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 11422}
+      Script: {instanceID: 11420}
     - Class: 114
-      Script: {instanceID: 11494}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 11606}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11858}
+      Script: {instanceID: 11856}
     - Class: 114
-      Script: {instanceID: 12316}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 12532}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12878}
+      Script: {instanceID: 12876}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 13272}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -203,7 +203,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: f5d6539accc9b9bbb17a48382d1eebb6
+      Hash: ae70dc9940616465b6ef1bbdcfc863d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleController

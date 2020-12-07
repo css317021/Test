@@ -34,6 +34,9 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
 
     int LeaveNum;
 
+    //確認用
+    public Text InOut;
+
     //入退室判定
     int t = 0;
 
@@ -179,6 +182,7 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
         this.MemName.transform.SetParent(memList.transform, false);
         string v = $"{name}";
         this.MemName.text = v;
+        InOut.text = v;
     }
 
     public void OnLeave(string name)
