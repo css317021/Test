@@ -160,10 +160,11 @@ public class SampleController : MonoBehaviour, ISampleHubReceiver
             Position = new Vector3(0, 0, 0),
             Rotation = new Quaternion(0, 0, 0, 0)
         };
-
+        Debug.Log("プレーヤー作成  ");
         // ゲームに接続する
         await this.sampleHub.JoinAsync(player);
 
+        Debug.Log("接続しました。 ");
         //入室状態にする
         t = 1;
 
