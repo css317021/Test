@@ -11,8 +11,6 @@ public class SampleHub : StreamingHubBase<ISampleHub, ISampleHubReceiver>, ISamp
     IGroup room;
     Player me;
 
-    string a = "1";
-
     public async Task JoinAsync(Player player)
     {
         Console.WriteLine("START");
