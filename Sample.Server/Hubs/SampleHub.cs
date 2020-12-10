@@ -2,6 +2,7 @@
 using Sample.Shared.Hubs;
 using Sample.Shared.MessagePackObjects;
 using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -10,14 +11,20 @@ public class SampleHub : StreamingHubBase<ISampleHub, ISampleHubReceiver>, ISamp
     IGroup room;
     Player me;
 
+    string a = "1";
+
     public async Task JoinAsync(Player player)
     {
+        Console.WriteLine("START");
         //ルームは全員固定
         const string roomName = "SampleRoom";
+        Console.WriteLine("Create Room");
         //ルームに参加&ルームを保持
         this.room = await this.Group.AddAsync(roomName);
+        Console.WriteLine("Join Room");
         //自分の情報も保持
         me = player;
+        Console.WriteLine("Create I");
         //参加したことをルームに参加している全メンバーに通知
         this.Broadcast(room).OnJoin(me.Name);
     }
