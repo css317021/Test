@@ -1,8 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePack", "MessagePack.csproj", "{E806B116-7858-1F0A-BCB0-89E61F8AEA74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnion", "MagicOnion.csproj", "{5F660E41-B555-98E0-34A3-687E3B3800E1}"
@@ -12,10 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{623774EB-AA62-CA95-02F9-EC8B69152812}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnion.Unity", "MagicOnion.Unity.csproj", "{E9A89D10-A4B1-7876-C019-11630338F43D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Server", "..\Sample.Server\Sample.Server.csproj", "{C545CD2F-E497-46BA-B99E-EE38DCBEFE3C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Shared", "..\Sample.Shared\Sample.Shared.csproj", "{90570D30-8CF6-48E4-9DC0-AADF127A84B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,19 +37,8 @@ Global
 		{E9A89D10-A4B1-7876-C019-11630338F43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9A89D10-A4B1-7876-C019-11630338F43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9A89D10-A4B1-7876-C019-11630338F43D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C545CD2F-E497-46BA-B99E-EE38DCBEFE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C545CD2F-E497-46BA-B99E-EE38DCBEFE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C545CD2F-E497-46BA-B99E-EE38DCBEFE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C545CD2F-E497-46BA-B99E-EE38DCBEFE3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90570D30-8CF6-48E4-9DC0-AADF127A84B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90570D30-8CF6-48E4-9DC0-AADF127A84B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90570D30-8CF6-48E4-9DC0-AADF127A84B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90570D30-8CF6-48E4-9DC0-AADF127A84B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B55A1FA2-07C1-4FBB-A6B9-CFB743A38701}
 	EndGlobalSection
 EndGlobal

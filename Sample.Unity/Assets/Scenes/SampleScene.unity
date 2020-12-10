@@ -1596,6 +1596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e3ca1136b7029a438bfcb3b3d5252ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  applicationHost: 18.181.92.51
+  applicationPort: 12345
   StartPanel: {fileID: 1768411685}
   ChatPanel: {fileID: 743060655}
   AlertPanel: {fileID: 1513800577}

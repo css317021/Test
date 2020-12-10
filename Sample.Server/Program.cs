@@ -17,7 +17,7 @@ namespace Sample.Server
             await MagicOnionHost.CreateDefaultBuilder()
                 .UseMagicOnion(
                     new MagicOnionOptions(isReturnExceptionStackTraceInErrorDetail: true),
-                    new ServerPort("0.0.0.0", 12345, ServerCredentials.Insecure))
+                    new ServerPort("18.181.92.51", 12345, ServerCredentials.Insecure))
                 .RunConsoleAsync();
         }
     }
